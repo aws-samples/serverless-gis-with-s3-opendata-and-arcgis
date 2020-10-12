@@ -45,7 +45,7 @@
 var graphicsLayer = new GraphicsLayer();var cr = 226;var cg = 119;var cb = 40;
 var simpleMarkerSymbol = { type: "simple-marker",  color: [cr, cg, cb]  };
 var request = new XMLHttpRequest();
-var url = "./Unsaved/2020/09/29/3d2c0aa8-2fcd-420f-8c7e-49de0e7bed19.csv";
+var url = ""; //Update this with the path to your CSV file in your bucket
 
 request.open('GET', url, true)
 request.onload = function() 

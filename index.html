@@ -69,7 +69,6 @@ request.onload = function()
 		graphicsLayer.add(pointGraphic);
 		var textSymbol = { type: "text",  color: "white", haloColor: "black", haloSize: "1px", text: String(lines[i][2]).replace('"','').replace('"',''), xoffset: 3, yoffset: 3,  font: {  size: 12, family: "Arial", weight: "bold" }};
 		var point = { type: "point", longitude: fltLong, latitude: fltLat };
-	)
 		var pointGraphic = new Graphic({ geometry: point, symbol: textSymbol });
 		graphicsLayer.add(pointGraphic);
 	}
